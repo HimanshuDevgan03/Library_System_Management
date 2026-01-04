@@ -46,7 +46,7 @@ Date & time functions
 
 The following Entity Relationship Diagram (ERD) represents the database schema and relationships between tables used in the Library Management System.
 
-![Library Management System ERD](assets/library_erd.png)
+![Library Management System ERD](/library_erd.png)
 
 The system includes the following tables:
 
