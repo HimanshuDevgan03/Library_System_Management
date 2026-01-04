@@ -79,10 +79,13 @@ Some example queries include:
 1. Clone the repository:  
    ```bash
    git clone <https://github.com/HimanshuDevgan03/Library_System_Management.git>
-
+   
 Create the database in PostgreSQL
+
 Run table creation scripts
+
 Insert sample data
+
 Execute queries to explore insights
 
 📌 What This Project Shows
