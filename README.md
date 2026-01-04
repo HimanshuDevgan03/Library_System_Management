@@ -1,137 +1,94 @@
-📚 Library Management System (SQL Project)
+# 📚 Library Management System (SQL Project)
 
-A SQL-based Library Management System focused on relational database design, CRUD operations, and analytical queries using a real-world library use case.
+## 🔍 Project Overview
+This project is a Library Management System built using SQL as part of my learning and practice in database management.  
+The project focuses on understanding relational databases, table relationships, CRUD operations, and analytical SQL queries using a real-world use case.  
 
-🎯 Features
+The goal of this project is to strengthen my SQL fundamentals and demonstrate my ability to design and query structured data.
 
-Relational database schema with multiple linked tables
+## 🎯 Learning Objectives
+Through this project, I practiced and learned:
 
-Book issue & return tracking
+- Designing a relational database schema
+- Creating tables with primary & foreign keys
+- Performing CRUD operations
+- Writing JOINs, GROUP BY, HAVING, subqueries
+- Using CTAS (Create Table As Select)
+- Understanding real-world library workflows like issue, return, and overdue tracking
 
-CRUD operations on library data
+## 🛠️ Tech Stack
+**Database:** PostgreSQL / SQL  
 
-Analytical queries for insights (overdue books, rentals, performance)
+**Concepts Used:**
+- DDL & DML
+- Joins (INNER, LEFT)
+- Aggregations
+- Subqueries
+- Stored Procedures (Intro level)
+- Date & time functions
 
-Summary tables using CTAS
-
-Basic stored procedures for issuing and returning books
-
-🛠️ Tech Stack
-
-Database: PostgreSQL / SQL
-
-Concepts:
-
-DDL & DML
-
-Joins (INNER, LEFT)
-
-GROUP BY, HAVING
-
-Subqueries
-
-CTAS (Create Table As Select)
-
-Stored Procedures (intro level)
-
-Date & time functions
-
-🗂️ Database Structure
-
-The Entity Relationship Diagram (ERD) below represents the schema and relationships between tables in the system.
+## 🗂️ Database Structure
+The following Entity Relationship Diagram (ERD) represents the database schema and relationships between tables used in the Library Management System.
 
 ![Library Management System ERD](/library_erd.png)
 
-Tables Included
+The system includes the following tables:
 
-branch – Library branch details
+- **Branch** – Library branch details  
+- **Employees** – Staff working in branches  
+- **Members** – Registered library members  
+- **Books** – Book inventory and status  
+- **Issued_Status** – Books issued to members  
+- **Return_Status** – Returned books information  
 
-employees – Staff working in branches
+The tables are connected using foreign key relationships to maintain data integrity.
 
-members – Registered members
+## 🔄 Key Operations Implemented
+### ✔️ CRUD Operations
+- Insert new books and members  
+- Update member details  
+- Delete issue records  
+- Retrieve records using filters  
 
-books – Book inventory and availability
+### ✔️ Data Analysis Queries
+Some example queries include:
 
-issued_status – Issued book records
+- Books issued but not yet returned  
+- Members with multiple book issues  
+- Total rental income by book category  
+- Employees handling the most book issues  
+- Members with overdue books  
 
-return_status – Returned book records
+### ⚙️ Advanced Concepts (Beginner–Intermediate Exposure)
+- CTAS to create summary tables  
+- Stored procedures for:  
+  - Issuing a book  
+  - Returning a book and updating status  
+  - Overdue calculation using date difference  
+  - Branch-level performance reporting  
 
-All tables are connected using primary and foreign keys to maintain data integrity.
+> ⚠️ Note: These advanced concepts were implemented as part of learning and experimentation.
 
-🔄 Key Operations
-CRUD Operations
+## 📊 Sample Use Cases Covered
+- Track issued vs returned books  
+- Identify overdue books (30+ days)  
+- Analyze high-demand books  
+- Generate branch-wise performance reports  
 
-Insert new books and members
-
-Update member and book details
-
-Delete issued records
-
-Retrieve filtered data
-
-Data Analysis Queries
-
-Books issued but not returned
-
-Members with multiple book issues
-
-Total rental income by category
-
-Employees processing the most issues
-
-Members with overdue books
-
-⚙️ Advanced Concepts
-
-CTAS for summary and reporting tables
-
-Stored procedures for:
-
-Issuing a book
-
-Returning a book and updating status
-
-Overdue calculation using date difference
-
-Branch-wise performance reporting
-
-📁 Project Structure
-
-SQL scripts for table creation
-
-SQL queries for analysis and reporting
-
-ERD image for database visualization
-
-🚀 How to Run
-
-git clone <https://github.com/HimanshuDevgan03/Library_System_Management.git>
-
-
+## 🚀 How to Run the Project
+1. Clone the repository:  
+   ```bash
+   git clone <https://github.com/HimanshuDevgan03/Library_System_Management.git>
 Create the database in PostgreSQL
-
 Run table creation scripts
-
 Insert sample data
-
 Execute queries to explore insights
-
-📌 What This Project Demonstrates
-
+📌 What This Project Shows
 Strong SQL fundamentals
-
-Understanding of relational database design
-
-Ability to solve real-world problems using SQL
-
-Practical experience suitable for internship & fresher roles
-
+Understanding of database design
+Ability to translate real-world problems into SQL
+Hands-on practice suitable for internship & fresher roles
 👤 Author
-
 Himanshu Devgan
-
 B.Tech (Computer Engineering)
-
 Aspiring Data / SQL Analyst
-
-
