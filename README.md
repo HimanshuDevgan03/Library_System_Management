@@ -1,97 +1,89 @@
 📚 Library Management System (SQL Project)
-🔍 Project Overview
 
-This project is a Library Management System built using SQL as part of my learning and practice in database management.
-The project focuses on understanding relational databases, table relationships, CRUD operations, and analytical SQL queries using a real-world use case.
+A SQL-based Library Management System focused on relational database design, CRUD operations, and analytical queries using a real-world library use case.
 
-The goal of this project is to strengthen my SQL fundamentals and demonstrate my ability to design and query structured data.
+🎯 Features
 
-🎯 Learning Objectives
+Relational database schema with multiple linked tables
 
-Through this project, I practiced and learned:
+Book issue & return tracking
 
-Designing a relational database schema
+CRUD operations on library data
 
-Creating tables with primary & foreign keys
+Analytical queries for insights (overdue books, rentals, performance)
 
-Performing CRUD operations
+Summary tables using CTAS
 
-Writing JOINs, GROUP BY, HAVING, subqueries
-
-Using CTAS (Create Table As Select)
-
-Understanding real-world library workflows like issue, return, overdue tracking
+Basic stored procedures for issuing and returning books
 
 🛠️ Tech Stack
 
 Database: PostgreSQL / SQL
 
-Concepts Used:
+Concepts:
 
 DDL & DML
 
 Joins (INNER, LEFT)
 
-Aggregations
+GROUP BY, HAVING
 
 Subqueries
 
-Stored Procedures (Intro level)
+CTAS (Create Table As Select)
+
+Stored Procedures (intro level)
 
 Date & time functions
 
 🗂️ Database Structure
 
-## 🗂️ Database Structure
-
-The following Entity Relationship Diagram (ERD) represents the database schema and relationships between tables used in the Library Management System.
+The Entity Relationship Diagram (ERD) below represents the schema and relationships between tables in the system.
 
 ![Library Management System ERD](/library_erd.png)
 
-The system includes the following tables:
+Tables Included
 
-Branch – Library branch details
+branch – Library branch details
 
-Employees – Staff working in branches
+employees – Staff working in branches
 
-Members – Registered library members
+members – Registered members
 
-Books – Book inventory and status
+books – Book inventory and availability
 
-Issued_Status – Books issued to members
+issued_status – Issued book records
 
-Return_Status – Returned books information
+return_status – Returned book records
 
-The tables are connected using foreign key relationships to maintain data integrity.
+All tables are connected using primary and foreign keys to maintain data integrity.
 
-🔄 Key Operations Implemented
-✔️ CRUD Operations
+🔄 Key Operations
+CRUD Operations
 
 Insert new books and members
 
-Update member details
+Update member and book details
 
-Delete issue records
+Delete issued records
 
-Retrieve records using filters
+Retrieve filtered data
 
-✔️ Data Analysis Queries
+Data Analysis Queries
 
-Some example queries include:
-
-Books issued but not yet returned
+Books issued but not returned
 
 Members with multiple book issues
 
-Total rental income by book category
+Total rental income by category
 
-Employees handling the most book issues
+Employees processing the most issues
 
 Members with overdue books
 
-⚙️ Advanced Concepts (Beginner–Intermediate Exposure)
+⚙️ Advanced Concepts
 
-CTAS to create summary tables
+CTAS for summary and reporting tables
 
 Stored procedures for:
 
@@ -101,24 +93,17 @@ Returning a book and updating status
 
 Overdue calculation using date difference
 
-Branch-level performance reporting
+Branch-wise performance reporting
 
-⚠️ Note: These advanced concepts were implemented as part of learning and experimentation.
+📁 Project Structure
 
-📊 Sample Use Cases Covered
+SQL scripts for table creation
 
-Track issued vs returned books
+SQL queries for analysis and reporting
 
-Identify overdue books (30+ days)
+ERD image for database visualization
 
-Analyze high-demand books
-
-Generate branch-wise performance reports
-
-🚀 How to Run the Project
-
-Clone the repository
-
+🚀 How to Run
 git clone <your-repo-link>
 
 
@@ -130,18 +115,20 @@ Insert sample data
 
 Execute queries to explore insights
 
-📌 What This Project Shows
+📌 What This Project Demonstrates
 
 Strong SQL fundamentals
 
-Understanding of database design
+Understanding of relational database design
 
-Ability to translate real-world problems into SQL
+Ability to solve real-world problems using SQL
 
-Hands-on practice suitable for internship & fresher roles
+Practical experience suitable for internship & fresher roles
 
 👤 Author
-
+Himanshu Devgan
+B.Tech (Computer Engineering)
+Aspiring Data / SQL Analyst
 Himanshu Devgan
 B.Tech (Computer Engineering)
 Aspiring Data / SQL Analyst
