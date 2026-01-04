@@ -129,6 +129,5 @@ Practical experience suitable for internship & fresher roles
 Himanshu Devgan
 B.Tech (Computer Engineering)
 Aspiring Data / SQL Analyst
-Himanshu Devgan
-B.Tech (Computer Engineering)
-Aspiring Data / SQL Analyst
+
+
