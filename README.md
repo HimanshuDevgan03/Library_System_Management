@@ -104,7 +104,7 @@ SQL queries for analysis and reporting
 ERD image for database visualization
 
 🚀 How to Run
-git clone <your-repo-link>
+git clone <https://github.com/HimanshuDevgan03/Library_System_Management.git>
 
 
 Create the database in PostgreSQL
@@ -126,8 +126,11 @@ Ability to solve real-world problems using SQL
 Practical experience suitable for internship & fresher roles
 
 👤 Author
+
 Himanshu Devgan
+
 B.Tech (Computer Engineering)
+
 Aspiring Data / SQL Analyst
 
 
